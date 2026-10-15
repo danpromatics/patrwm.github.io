@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="cy">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <meta name="title" property="og:title" content="Patrwm">
+  <meta name="title" property="og:title" content="Patrwm. Gorchudd O Gymru.">
   <meta name="description" property="og:description" content="This is a description for Patrwm">
+
+  <meta property="og:url" content="https://danpromatics.github.io/patrwm.github.io" />
+  
   <meta name="image" property="og:image" content="https://danpromatics.github.io/patrwm.github.io/seo-banner.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
   
   <meta name="theme-color" content="#323523">
   <title lang="cy">Patrwm</title>
@@ -16,8 +23,13 @@
   <main><img src="title.svg" alt="Patrwm. Gorchudd O Gymru." /></main>
 </body>
   <style>
+    body {
+      margin: 0;
+    }
+    
     main {
-      background-image: #323523 url("background.jpg");
+      box-sizing: border-box;
+      background: #323523 url("background.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -28,8 +40,14 @@
     }
 
     img {
-      max-width: min(80vw, 320px);
-      height: auto;
+      max-width: min(80vw, 1050px);
+      height: auto
+      
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      user-select: none;
     }
   </style>
 </html>
