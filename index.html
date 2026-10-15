@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html lang="cy">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="title" property="og:title" content="Patrwm. Gorchudd O Gymru.">
+    <meta name="description" property="og:description" content="This is a description for Patrwm">
   
-  <meta name="title" property="og:title" content="Patrwm. Gorchudd O Gymru.">
-  <meta name="description" property="og:description" content="This is a description for Patrwm">
+    <meta property="og:url" content="https://danpromatics.github.io/patrwm.github.io" />
+    
+    <meta name="image" property="og:image" content="https://danpromatics.github.io/patrwm.github.io/seo-banner.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="theme-color" content="#323523">
+    <title lang="cy">Patrwm</title>
+  </head>
 
-  <meta property="og:url" content="https://danpromatics.github.io/patrwm.github.io" />
-  
-  <meta name="image" property="og:image" content="https://danpromatics.github.io/patrwm.github.io/seo-banner.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  
-  <meta name="twitter:card" content="summary_large_image" />
-  
-  <meta name="theme-color" content="#323523">
-  <title lang="cy">Patrwm</title>
-</head>
+  <body>
+    <main>img src="title.svg" alt="Patrwm. Gorchudd O Gymru." /></main>
+  </body>
 
-<body>
-  <main><img src="title.svg" alt="Patrwm. Gorchudd O Gymru." /></main>
-</body>
+  <script type="text/javascript">
+    const appHeight = () => {
+    const doc = document.documentElement
+      doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+    }
+    window.addEventListener('resize', appHeight)
+    appHeight()
+  </script>
+  
   <style>
     body {
       margin: 0;
     }
-    
-    main {
+    :root {
+      --app-height: 100%;
+    }
+
+    * { 
       box-sizing: border-box;
+    }
+    
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      height: var(--app-height);
+    }
+
+    main {
       background: #323523 url("background.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      min-height: 100vh;
+      height: 100%;
       display: grid;
       place-items: center;
       padding: 24px;
     }
-
+  
     img {
       max-width: min(80vw, 1050px);
       height: auto
