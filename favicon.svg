@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(0.9259259259259259,0,0,0.9259259259259259,0,0)"><svg xmlns="http://www.w3.org/2000/svg" id="Logo" viewBox="0 0 1080 1080" width="1080" height="1080"><path d="M590.55,126.33v116.92h88.8s-.11-116.92-.11-116.92h89.1v116.92h77.66v83.86h123.13v82.71h-123.13s0,89.5,0,89.5h123.13v83.39l-122.96.13v88.94l122.86-.19v82.26h-122.92s.06,84.7.06,84.7h-77.83l.11,115.13h-89.21v-115.13h-88.59v115.13h-89.1l-.04-115.13h-88.24s-.11,115.11-.11,115.11h-89.51v-115.11h-83.38v-84.7H110.98s0-82.25,0-82.25h129.41l-.11-88.91H110.87l.2-83.47,129.22.1v-89.51H110.87v-82.69h129.38s.04-83.86.04-83.86h83.38v-116.92h89.51v116.92h88.39s-.11-116.92-.11-116.92" fill="#333"></path></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(0.9259259259259259,0,0,0.9259259259259259,0,0)"><svg xmlns="http://www.w3.org/2000/svg" id="Logo" viewBox="0 0 1080 1080" width="1080" height="1080"><path d="M590.55,126.33v116.92h88.8s-.11-116.92-.11-116.92h89.1v116.92h77.66v83.86h123.13v82.71h-123.13s0,89.5,0,89.5h123.13v83.39l-122.96.13v88.94l122.86-.19v82.26h-122.92s.06,84.7.06,84.7h-77.83l.11,115.13h-89.21v-115.13h-88.59v115.13h-89.1l-.04-115.13h-88.24s-.11,115.11-.11,115.11h-89.51v-115.11h-83.38v-84.7H110.98s0-82.25,0-82.25h129.41l-.11-88.91H110.87l.2-83.47,129.22.1v-89.51H110.87v-82.69h129.38s.04-83.86.04-83.86h83.38v-116.92h89.51v116.92h88.39s-.11-116.92-.11-116.92" fill="#eae5df"></path></svg></g></g></svg></g></svg>
